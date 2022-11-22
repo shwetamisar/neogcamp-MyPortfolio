@@ -2,6 +2,8 @@
 
 :root{
     --primary-color:#a21caf;
+    --dark-gray : #64748b;
+    --off-white :#f3f4f6;
 }
 
 body{
@@ -67,4 +69,36 @@ color: white;
 
 .navigation .link-active{
     font-weight: bold;
+}
+
+/*@header*/
+.hero{
+    padding:2rem;
+}
+.hero .hero-image
+{
+    max-width: 350px;
+    display:block;
+    margin:auto;
+}
+.hero .hero-heading
+{
+    color:var(--dark-gray);
+    text-align: center;
+    padding:1rem;
+}
+.hero .hero-heading .heading-inverted{
+    color:var(--primary-color);
+}
+
+/*section*/
+.section{
+    padding: 2rem;
+}
+.section h1{
+ text-align: center;
+}
+
+.ow{
+ background-color: var(--off-white);
 }
