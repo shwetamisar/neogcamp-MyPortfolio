@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
+    margin: 0px; /* body margin coming from user stylesheet*/
 }
 hr{
     margin: 1rem 0rem;
@@ -101,4 +102,18 @@ color: white;
 
 .ow{
  background-color: var(--off-white);
+}
+/*footer*/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-left-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
