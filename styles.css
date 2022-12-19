@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;700&display=swap');
 :root{
     --primary-color:#a21caf;
     --dark-gray : #64748b;
@@ -14,24 +13,31 @@ hr{
     margin: 1rem 0rem;
 }
 
+/** spaces **/
+.margin-md{
+    margin: 2rem;
+}
+
 /** container **/
 .container{
-    padding : 0rem 1rem;
+    padding : 0rem 2rem;   /*padding : top&bottom right&left*/
 }
 
 .container-center{
    max-width: 600px; 
-   margin:auto;
+   margin:auto;  /*margin auto takes element to center*/
 }
 
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color:white;
+    
 }
 .link-secondary{
     color: var(--primary-color);
@@ -75,6 +81,7 @@ color: white;
 /*@header*/
 .hero{
     padding:2rem;
+    padding-top: 5rem;
 }
 .hero .hero-image
 {
@@ -86,7 +93,7 @@ color: white;
 {
     color:var(--dark-gray);
     text-align: center;
-    padding:1rem;
+    padding:0.5rem;
 }
 .hero .hero-heading .heading-inverted{
     color:var(--primary-color);
@@ -110,6 +117,10 @@ color: white;
     text-align: center;
     color: white;
     border-top-left-radius: 1rem;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 .footer .link{
     color: white;
